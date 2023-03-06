@@ -2,7 +2,7 @@
   "name": "ts-project-template",
   "version": "1.0.0",
   "description": "Template project for Node.js + TypeScript.",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
