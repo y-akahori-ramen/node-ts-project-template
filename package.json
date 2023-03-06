@@ -1,0 +1,32 @@
+{
+  "name": "ts-project-template",
+  "version": "1.0.0",
+  "description": "Template project for Node.js + TypeScript.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-akahori-ramen/node-ts-project-template.git"
+  },
+  "author": "y-akahori-ramen",
+  "license": "Unlicense license",
+  "bugs": {
+    "url": "https://github.com/y-akahori-ramen/node-ts-project-template/issues"
+  },
+  "homepage": "https://github.com/y-akahori-ramen/node-ts-project-template#readme",
+  "devDependencies": {
+    "@jest/globals": "^29.4.3",
+    "@types/node": "^18.14.6",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
+    "jest": "^29.4.3",
+    "rimraf": "^4.3.0",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.5"
+  }
+}
